@@ -8,6 +8,8 @@ setuptools.setup(name = 'pasteit',
       author_email = 'eric@pagefault.se',
       license = 'GPLv3',
       packages = setuptools.find_packages(),
+      install_requires = [
+          'requests',
+      ],
       entry_points = {
-          'console_scripts' : ['pasteit = pasteit.pasteit:__main']
-          })
+          'console_scripts' : ['pasteit = pasteit.pasteit:__main']})

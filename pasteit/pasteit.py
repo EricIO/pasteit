@@ -34,7 +34,9 @@ def __get_arguments():
     parser.add_argument('-s', '--site', metavar="pastesite", default='slexy.org',
                         help='''The site you want to paste to, default is slexy.org.
                         Use 'pasteit --list' to show a list of supported sites.''')
-    parser.add_argument('-l', '--list', help='Prints a list of supported sites and exits' ,action=_ListAction)
+    parser.add_argument('-l', '--language', help='What syntax highlighting to use')
+    parser.add_argument('-a', '--author', help='Name of the author')
+    parser.add_argument('--list', help='Prints a list of supported sites and exits' ,action=_ListAction)
 
     return parser.parse_args()
 

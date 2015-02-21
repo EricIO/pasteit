@@ -65,12 +65,13 @@ class Slexy(PasteSite):
     def parse(self, args):
         form_data = {}
         arg_translation = {'text'             : 'raw_paste',
-                           'syntax_highlight' : 'language',
+                           'language'         : 'language',
                            'expiration'       : 'expire',
                            'comment'          : 'comment',
                            'description'      : 'descr',
                            'visibility'       : 'permissions',
-                           'linum'            : 'linenumbers'}
+                           'linum'            : 'linenumbers',
+                           'author'           : 'author'}
         for k,v in args.items():
             if arg_translation.get(k):
                 form_data[arg_translation[k]] =  v
