@@ -3,7 +3,7 @@
 pasteit is a program that allows you to paste files to pastebin like sites. Pull requests, bug reports and feature requests are highly welcome!
 
 ## Installation
-This release is only tested for python 3 with python 2 support comming. To install, clone the repo and simply use 
+This release is only tested for python 3 with python 2 support coming. To install, clone the repo and do
 ```python setup.py install```
 
 ## Usage
