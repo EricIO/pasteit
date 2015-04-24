@@ -33,7 +33,7 @@ class _ListAction(argparse.Action):
                                         default=default,
                                         nargs=0,
                                         help=help)
-    def __call__(self, parser, namespace, values, option_strins=None):
+    def __call__(self, parser, namespace, values, option_strings=None):
         self.__list()
         parser.exit()
 
