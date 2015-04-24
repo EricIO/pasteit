@@ -1,3 +1,5 @@
 *.pyc
 __pychache__/
+build/
+dist/
 pasteit.egg-info/
