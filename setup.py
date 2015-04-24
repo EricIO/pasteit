@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(name = 'pasteit',
-        version = '1.0.1',
+        version = '1.0.2',
         description = 'Program that allows you to paste files to pastebin like sites',
         url = 'http://github.com/ErioIO/pasteit',
         author = 'Eric Skoglund',
